@@ -37,14 +37,13 @@ img {
 }
 
 .contactHeader {
-    text-decoration: underline;
     position: relative;
     display: block;
     font-size: 25px;
-    text-align: center;
     font-weight: bold;
-    margin:40px;
-    
+    margin-bottom:30px;
+    width:50%;
+    border-bottom: 2px solid black;
 }
 .experience1 ul{
     list-style-type: none;
@@ -140,34 +139,37 @@ img {
     color: #404040;
 }
 .educationHeader {
-    text-decoration: underline;
     position: relative;
     display: block;
     font-size: 25px;
-    text-align: center;
     font-weight: bold;
     margin-top:50px;
     margin-bottom:30px;
+    width:50%;
+    border-bottom: 2px solid black;
 }
 .educationDescription {
     padding-left: 30px;
 }
 .languages {
-    text-decoration: underline;
     position: relative;
     display: block;
     font-size: 25px;
-    text-align: center;
     font-weight: bold;
     margin-top:70px;
     margin-bottom:30px;
+    width:50%;
+    border-bottom: 2px solid black;
 }
 .contactInformation {
-    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: bold;
 }
 .contact-flex {
     display:flex;
     flex-direction: row;
+    margin-bottom: 16px;
+    align-items: center;
 }
 .contact-flex img {
     height:25px;
@@ -179,12 +181,6 @@ img {
 .subcontact-flex {
     display:flex;
     flex-direction: column;
-}
-#svg2 {
-    margin-top:20px;
-}
-#svg3 {
-    margin-top:12px;
 }
 .educationDescription ul {
     color:  #808080;
@@ -218,6 +214,13 @@ img {
 }
 .innerCircle {
     margin:auto;
+}
+.headingUnderline {
+    padding-bottom: 4px;
+    border-bottom: 2px solid black;
+}
+.workEperience {
+    margin-top:70px;
 }
 
 
