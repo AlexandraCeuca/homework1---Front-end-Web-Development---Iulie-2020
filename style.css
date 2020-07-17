@@ -6,10 +6,11 @@
     background-image: url("./Side\ bar.jpg");
     flex: 1.5;
     min-width: 300px;
+    padding:16px;
 }
 .content {
     background-image: url("./background.jpg");
-    flex: 6;
+    flex: 5;
     min-width: 800px;
 }
 
@@ -138,8 +139,11 @@ img {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    margin-top:70px;
+    margin-top:50px;
     margin-bottom:30px;
+}
+.educationDescription {
+    padding-left: 30px;
 }
 .languages {
     text-decoration: underline;
@@ -175,5 +179,36 @@ img {
 #svg3 {
     margin-top:12px;
 }
+.educationDescription ul {
+    color:  #808080;
+}
+.languagesDescription {
+    padding-left:30px;
+}
+.language-flex {
+    display:flex;
+    flex-direction: row;
+}
+.languageContent {
+    height:12px;
+    width:12px;
+    border-radius: 50%;
+    background-color: darkmagenta;
+    margin-left:5px;
+    margin-bottom: 30px;
+}
+.languageStyle {
+    font-size: 25px;
+    color: #808080;
+    margin-bottom: 10px;
+}
+.languageContent2 {
+    height:12px;
+    width:12px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left:5px;
+}
+
 
 
