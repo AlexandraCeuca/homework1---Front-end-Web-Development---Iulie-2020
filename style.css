@@ -4,24 +4,23 @@
 }
 .sideBar{
     background-image: url("./Side\ bar.jpg");
-    flex: 1.5;
+    flex: 1;
     min-width: 300px;
     padding:16px;
 }
 .content {
     background-image: url("./background.jpg");
-    flex: 5;
+    flex: 3.5;
     min-width: 800px;
 }
 
 img {
-    height:200px;
-    width:200px;
+    height:250px;
+    width:250px;
     border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top:20px;
 }
 #introduction {
     list-style-type: none;
@@ -78,6 +77,8 @@ img {
     border-radius: 50%;
     font-weight: bold;
     border:3px solid black;
+    display: flex;
+    justify-content: center
 }
 #specializationItem2 {
     background-image: url("./Item\ 2.png");
@@ -89,6 +90,8 @@ img {
     border-radius: 50%;
     font-weight: bold;
     border:3px solid black;
+    display: flex;
+    justify-content: center
     
 }
 #specializationItem3 {
@@ -101,6 +104,8 @@ img {
     border-radius: 50%;
     font-weight: bold;
     border:3px solid black;
+    display: flex;
+    justify-content: center
 }
 #specializationItem4 {
     background-image: url("./Item\ 4.jpg");
@@ -112,6 +117,8 @@ img {
     border-radius: 50%;
     font-weight: bold;
     border:3px solid black;
+    display: flex;
+    justify-content: center
 }
 #jobTitle1 {
     font-weight:bold;
@@ -208,6 +215,9 @@ img {
     border-radius: 50%;
     background-color: white;
     margin-left:5px;
+}
+.innerCircle {
+    margin:auto;
 }
 
 
