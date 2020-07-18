@@ -1,0 +1,47 @@
+body {
+    background-image: url("./background.jfif");
+}
+.menu {
+    padding: 100px 150px;
+    font-size: 30px;
+    font-weight: 500;
+    border-right:1px solid black;
+}
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+#dogImagine{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 250px;
+}
+.content {
+    padding: 100px 30px;
+}
+.dogInformation {
+    display: flex;
+    flex-direction: row;
+}
+.firstColumn {
+    font-weight: bold;
+    font-size: 20px;
+}
+.firstColumnItems {
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+.secondColumn {
+    font-size: 20px;
+}
+.secondColumnItems {
+    margin-bottom: 20px;
+}
+.dogDescription {
+    margin-top: 55px;
+    margin-right: 700px;
+    font-size:20px;
+}
