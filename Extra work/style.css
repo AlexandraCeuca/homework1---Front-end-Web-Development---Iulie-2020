@@ -2,10 +2,15 @@ body {
     background-image: url("./background.jfif");
 }
 .menu {
-    padding: 100px 150px;
+    width: 30vw;
+    padding: 30px 10px 30px 100px;;
     font-size: 30px;
     font-weight: 500;
-    border-right:1px solid black;
+    border-right:1px solid rgb(189, 183, 183);
+    text-decoration: none;
+    display: inline-block;
+    margin-top:80px;
+    flex: 1;
 }
 .flexContainer {
     display: flex;
@@ -20,7 +25,10 @@ body {
     margin-left: 250px;
 }
 .content {
-    padding: 100px 30px;
+    padding: 20px 30px;
+    margin-top:80px;
+    margin-bottom: 100px;
+    flex: 5;
 }
 .dogInformation {
     display: flex;
@@ -42,6 +50,18 @@ body {
 }
 .dogDescription {
     margin-top: 55px;
-    margin-right: 700px;
     font-size:20px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover 
+{
+     color: blue;
+     text-decoration:none; 
+     cursor:pointer;  
+}
+#selectedDog {
+    color: blue;
 }
